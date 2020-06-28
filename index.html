@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon Says</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <h1 id="level-title">Press ANY key to start</h1>
+  <h1 id="level-info">Highest Level: 0</h1>
+  <div class="container">
+    <div id="clickHere">
+      <a href="#" class="howto fa fa-angle-double-down fa-lg">Click for Help</a>
+    </div>
+    <div class="helpInfo left-align">
+      <dl>
+        <dt>
+          Step 1: Press any key on the keyboard.
+        <dd>
+          <p>During this step the game will automatically play the first sound
+          and flash the corresponding button.</p>
+        </dd>
+        </dt>
+        <dt>
+          Step 2: Click the same color that just went off.
+        <dd>
+          <p>During this step if guessed correctly, another sound will play.</p>
+        </dd>
+        </dt>
+        <dt>
+          Step 3: Click the original colors in sequence and click the additional color
+          that was added.
+        <dd>
+          <p>Each time you answer the sequence correctly, you will level up.</p>
+        </dd>
+        </dt>
+        <dt>
+          <p>Step 4: Have fun and try to beat your highscore!</p>
+        </dt>
+        </ul>
+    </div>
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="game.js"></script>
+
+
+
+</body>
+
+</html>
